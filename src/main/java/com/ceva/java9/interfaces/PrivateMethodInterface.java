@@ -10,6 +10,7 @@ public interface PrivateMethodInterface {
     default void method1(){
         System.out.println("In method 1");
         try {
+            // invocamos al private method
             utilResource();
         }
         catch (IOException ex){
@@ -20,6 +21,7 @@ public interface PrivateMethodInterface {
     default  void method2(){
         System.out.println("In method 2");
         try {
+            // invocamos al private method
             utilResource();
         }
         catch (IOException ex){
